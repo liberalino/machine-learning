@@ -17,11 +17,11 @@ from textblob import TextBlob
 
 # Step 1 - Authenticate
 
-consumer_key= 'CONSUMER_KEY_HERE'
-consumer_secret= 'CONSUMER_SECRET_HERE'
+consumer_key= '7x8iXcWPdBTZml2i0AAgaCjhC'
+consumer_secret= 'XemVNueq8oMKFf0VqwmTvPqe3w9xHVwMfUrVdyNNiuriuR8Rs3'
 
-access_token='ACCESS_TOKEN_HERE'
-access_token_secret='ACCESS_TOKEN_SECRET_HERE'
+access_token='928373745819045888-ADWtpfliwnlZUyKm514o4zYCSXhlQse'
+access_token_secret='EEp4AaBzbYvV2lV99xqKgCU8Xvb1xIPxGOxfjOkHLX2ul'
 
 auth = tweepy.OAuthHandler(consumer_key, consumer_secret)
 auth.set_access_token(access_token, access_token_secret)
