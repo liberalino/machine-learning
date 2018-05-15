@@ -1,5 +1,5 @@
 '''
-    This code implements a recommendation movie system using LightFM, a library
+    This code implements a recommender movie system using LightFM, a library
     that implements popular recommendation algorithms
 
 Dependencies:
