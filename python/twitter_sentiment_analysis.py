@@ -1,7 +1,7 @@
 '''
-This code is an example of sentiment analysis via Twitter API.
-To get access to the API, please create an application:
-https://apps.twitter.com/app/new
+	This code is an example of sentiment analysis via Twitter API.
+	To get access to the API, please create an application:
+	https://apps.twitter.com/app/new
 
 Dependencies:
 	tweepy (http://www.tweepy.org/)
@@ -17,11 +17,11 @@ from textblob import TextBlob
 
 # Step 1 - Authenticate
 
-consumer_key= '7x8iXcWPdBTZml2i0AAgaCjhC'
-consumer_secret= 'XemVNueq8oMKFf0VqwmTvPqe3w9xHVwMfUrVdyNNiuriuR8Rs3'
+consumer_key= 'YOUR_CONSUMER_KEY'
+consumer_secret= 'YOUR_CONSUMER_SECRET'
 
-access_token='928373745819045888-ADWtpfliwnlZUyKm514o4zYCSXhlQse'
-access_token_secret='EEp4AaBzbYvV2lV99xqKgCU8Xvb1xIPxGOxfjOkHLX2ul'
+access_token='YOUR_ACCESS_TOKEN'
+access_token_secret='YOUR_TOKEN_SECRET'
 
 auth = tweepy.OAuthHandler(consumer_key, consumer_secret)
 auth.set_access_token(access_token, access_token_secret)

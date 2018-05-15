@@ -1,12 +1,16 @@
 '''
-This code is an example of classification using three types of classifiers.
-It trains the classifiers using data from people and try to predict the gender
-of a given person.
+    This code is an example of classification using three types of classifiers.
+    It trains the classifiers using data from people and try to predict the gender
+    of a given person.
 
 Dependencies:
-Scikit-learn (http://scikit-learn.org/stable/install.html)
-numpy (pip install numpy)
-scipy (pip install scipy)
+    Scikit-learn (http://scikit-learn.org/stable/install.html)
+    numpy (pip install numpy)
+    scipy (pip install scipy)
+
+References:
+    https://github.com/llSourcell/gender_classification_challenge
+
 '''
 from sklearn.tree import DecisionTreeClassifier
 from sklearn.svm import SVC
